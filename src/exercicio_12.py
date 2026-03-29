@@ -12,4 +12,6 @@ def add_guests(
     Returns:
         list[str]: lista atualizada
     """
-    pass
+    for i in range(len(new_guests)):
+        guests.append(new_guests[i])
+    return guests

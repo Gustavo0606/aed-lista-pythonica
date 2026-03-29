@@ -8,4 +8,7 @@ def shrink_guest_list(guests: list[str]) -> list[str]:
     Returns:
         list[str]: lista com apenas dois elementos
     """
-    pass
+    novaLista = []
+    novaLista.append(guests[0])
+    novaLista.append(guests[1])
+    return novaLista
