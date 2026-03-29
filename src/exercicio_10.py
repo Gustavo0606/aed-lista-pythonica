@@ -8,4 +8,7 @@ def greet_names(names: list[str]) -> list[str]:
     Returns:
         list[str]: lista com mensagens "Hello, <name>!"
     """
-    pass
+    listaResposta = []
+    for i in names:
+        listaResposta.append(f"Hello, {i}!")
+    return listaResposta

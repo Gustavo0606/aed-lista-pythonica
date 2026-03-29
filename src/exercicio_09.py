@@ -8,4 +8,9 @@ def is_even(n: int) -> bool:
     Returns:
         bool: True se for par, False caso contrário
     """
-    pass
+    par = False
+    if n % 2 == 0:
+        par = True
+    else:
+        par = False
+    return par
